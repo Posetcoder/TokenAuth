@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "token-auth",
+  "version": "${version}",
+  "name": "TokenAuth",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "icon": "assets/token-auth/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.posetcoder.tokenauth.client.TokenAuthClient"
+    ],
+    "main": [
+      "com.posetcoder.tokenauth.TokenAuth"
+    ]
+  },
+  "mixins": [
+    "token-auth.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
