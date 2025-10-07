@@ -10,9 +10,6 @@
   "icon": "assets/token-auth/icon.png",
   "environment": "client",
   "entrypoints": {
-    "client": [
-      "com.posetcoder.tokenauth.client.TokenAuthClient"
-    ],
     "main": [
       "com.posetcoder.tokenauth.TokenAuth"
     ]

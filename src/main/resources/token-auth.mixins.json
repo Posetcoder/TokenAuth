@@ -4,6 +4,7 @@
   "package": "com.posetcoder.tokenauth.mixin",
   "compatibilityLevel": "JAVA_21",
   "mixins": [
+    "TitleScreenMixin"
   ],
   "client": [
   ],

@@ -6,5 +6,6 @@ public class TokenAuth implements ModInitializer {
 
     @Override
     public void onInitialize() {
+
     }
 }
